@@ -1,2 +1,2 @@
-# html-css-js-Text-Coder
-Coder and Decoder with Front-End
+# Text Coder and Decoder
+Front-End Practice Project
