@@ -1,0 +1,195 @@
+/*imported fonts on html head links
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: <size>;
+  line-height: <150%>;
+}
+
+*/
+
+/*initializers*/
+*{
+    background-color: #ebf8ff;
+    padding: 0;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 22px;
+    box-sizing: content-box;
+}
+
+/*semantics*/
+.logo{
+    margin-top: 20px;
+    margin-left: 17%;
+}
+body{
+    height: 100vh;
+}
+main{
+    
+    display: flex;
+    justify-content: space-evenly;
+    margin-inline: 100px;
+}
+footer{
+    margin-top: 3%;
+    height: 30px;
+}
+
+/*objects*/
+button{
+    cursor: pointer;
+}
+textarea{
+    resize: none;
+}
+
+/*classes*/
+.textAreaUsuario{
+    color: #003366;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+
+    border: none;
+    margin-block: 20px;
+
+    height: auto;
+    width: auto;
+}
+::placeholder{color: #CCCCCC;}
+.textAreaUsuario:focus{
+    outline: none;
+}
+.botones{
+    display: flex;
+    margin-top: 20px;
+}
+.botonEncriptar{
+    background-color: #1d477a;
+    border: 1px solid #1d477a;
+    border-radius: 24px;
+    color: white;
+    height: 47px;
+    width: 228px;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+}
+.botonDesencriptar{
+    background-color: #D8DFE8;
+    border: 1px solid #1d477a;
+    border-radius: 24px;
+    color: #1d477a;
+    height: 47px;
+    width: 228px;
+    
+    margin-left: 50px;
+    position: relative;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+}
+.areaRespuesta{
+    margin-left: 30px;
+    align-items: center;
+}
+.respuestaPagina{
+    color: #003366;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+
+    background-color: white;
+    background-image: url("/images/Muñeco.png");
+    background-repeat: no-repeat; 
+    background-size: 80%; /*250px 200px; /* Ajusta el tamaño de la imagen */
+    background-position-x: center; 
+    background-position-y: 15%;
+    border: none;
+    border-radius: 24px;
+
+    margin-block: 20px;
+    margin-bottom: 18px;
+    margin-left: 20px;
+    position: relative;
+
+    height: auto;
+    width: auto;
+}
+.respuestaPagina:focus{
+    outline: none;
+}
+.copiar{
+    background-color: white;
+    border: 1px solid #1d477a;
+    border-radius: 24px;
+    color: #1d477a;
+    height: 47px;
+    width: 228px;
+    
+    margin-top: 18px;
+    margin-left: 40px;
+    position: relative;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+}
+.instruccionesAreaUsuario__p{
+    color: #9CA3AF;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 150%;
+    margin-left: 6px;
+    position: relative;
+}
+.instruccionesAreaUsuario{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+/*
+to do list:  --MANDATORY
+
+--- INTEGRAR JS enviar formulario y llenar texto respuestapagina
+--- OCULTAR Y MOSTRAR SIN TEXTO (RESPUESTAPAGINA) CONFORME A DATOS EN TEXT AREA USUARIO
+
+
+*/
+
+/*
+to do list:  -- hold for approval
+
+--- personalizar colores a la marca german gallardo (jugar con colores)
+--- responsividad a movil y tablet ??? 
+
+*/

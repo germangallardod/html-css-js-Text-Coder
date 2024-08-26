@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <!--links to fonts and styles-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!--meta data-->
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pagina que encripta y desencripta las vocales de una frase">
+    <!--proyecto de la clase de alura challenge encriptador de texto-->
+    <!--autor: german gallardo Bsc-->
+    <title>Vocales Encriptadas</title>
+</head>
+<body>
+    <header>
+        <div class="logo" >
+            <img src="/images/logoGermanNoBg.png" alt="german gallardo's logo">
+        </div>
+    </header>
+    <main>
+        <section class="areaUsuario">
+            <textarea class="textAreaUsuario" name="textAreaUsuario" rows="6" cols="32" id="1" placeholder="Escriba el texto a encriptar o desencriptar aqui"></textarea>
+            <div class="instruccionesAreaUsuario">
+                <img src="/images/exclamationMark.png" alt="!" height="12px" width="12px">
+                <p class="instruccionesAreaUsuario__p">Solo letras minúsculas y sin acentos.</p>
+            </div>
+            <div class="botones">
+                <button class="botonEncriptar">Encriptar</button>
+                <button class="botonDesencriptar">Desencriptar</button>
+            </div>
+        </section>  
+        <section class="areaRespuesta">
+            <textarea class="respuestaPagina" name="respuestaPagina"  rows="6" cols="20" id="2" placeholder=""></textarea>
+            <div class="botones">
+                <button class="copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>FOOTER: German Gallardo,  Todos los derechos reservados (c)</p>
+    </footer>
+</body>
+</html>
