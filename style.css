@@ -36,8 +36,24 @@ main{
     margin-inline: 100px;
 }
 footer{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 3%;
+    padding-block: 0.3%;
+    background-color: #003366;
     height: 30px;
+}
+.footerText{
+    background-color: #003366;
+    color:white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 100%;
 }
 
 /*objects*/
@@ -173,23 +189,7 @@ textarea{
     align-items: center;
 }
 
-
-
-
-
-/*
-to do list:  --MANDATORY
-
---- INTEGRAR JS enviar formulario y llenar texto respuestapagina
---- OCULTAR Y MOSTRAR SIN TEXTO (RESPUESTAPAGINA) CONFORME A DATOS EN TEXT AREA USUARIO
-
-
-*/
-
 /*
 to do list:  -- hold for approval
-
---- personalizar colores a la marca german gallardo (jugar con colores)
 --- responsividad a movil y tablet ??? 
-
 */
